@@ -1,4 +1,3 @@
-myWorld
-=======
+#myWorld
 
-visit my world access internet
+这个项目将搭建一个属于我自己的世界，文档及工程将随着进度推进不断完善。
