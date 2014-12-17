@@ -5,6 +5,8 @@
 #Prerequisites
 
 - go 1.4
+- martini 1.0
+- ace 0.0.4
 
 #Features
 
