@@ -7,6 +7,7 @@
 - go 1.4
 - martini 1.0
 - ace 0.0.4
+- polymer 0.5.2
 
 #Features
 
