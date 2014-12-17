@@ -1,5 +1,0 @@
-= content main
-  h2 Inner Template - Main : {{.Msg}}
-
-= content sub
-  h3 Inner Template = Sub : {{.Msg}}
