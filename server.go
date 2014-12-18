@@ -20,7 +20,7 @@ func main() {
 
     //定义静态文件路径
     m.Use(martini.Static("bower_components"))
-    m.Use(martini.Static("components"))
+    m.Use(martini.Static("elements"))
 
     m.Get("/", func(r acerender.Render) {
 

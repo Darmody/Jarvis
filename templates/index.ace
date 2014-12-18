@@ -12,6 +12,7 @@ html lang=en
     link rel="import" href="/core-header-panel/core-header-panel.html"
     link rel="import" href="/core-toolbar/core-toolbar.html"
     link rel="import" href="/paper-tabs/paper-tabs.html"
+    link rel="import" href="/post-list.html"
 
     = css
       html,body {
@@ -62,14 +63,14 @@ html lang=en
             | 王凯丽
 
       .container layout="" vertical="" center=""
-        / post-list show="all"
+        post-list show="all"
 
     = javascript
       var tabs = document.querySelector('paper-tabs');
-      // var list = document.querySelector('post-list');
+      var list = document.querySelector('post-list');
 
       tabs.addEventListener('core-select', function() {
-      // list.show = tabs.selected;
+      list.show = tabs.selected;
       });
 
 
