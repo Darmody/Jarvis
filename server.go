@@ -14,12 +14,8 @@ func main() {
     
     //加载render中间件
     m.Use(render.Renderer(render.Options{
-      Directory: "app", 
-      //Extensions: []string{".tmpl", ".html"},
+      Extensions: []string{".tmpl", ".html"},
     }))
-
-    //定义静态文件路径
-    m.Use(martini.Static("dist"))
 
     m.Get("/", func(r render.Render) {
 

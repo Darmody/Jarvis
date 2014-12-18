@@ -1,6 +1,6 @@
 {
   "name": "jarvis",
-  "version": "0.0.i",
+  "version": "0.0.0",
   "dependencies": {
     "core-elements": "Polymer/core-elements#^0.5.1",
     "paper-elements": "Polymer/paper-elements#^0.5.1",

@@ -1,10 +1,9 @@
 {
   "name": "jarvis",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.1",
-    "grunt-contrib-sass": "^0.7.3",
     "grunt-contrib-copy": "^0.5.0",
     "grunt-autoprefixer": "^1.0.0",
     "grunt-minify-html": "^0.1.0",
