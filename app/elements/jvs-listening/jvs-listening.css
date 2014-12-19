@@ -1,0 +1,22 @@
+host {
+  display: block;
+  height:60%;
+  color: #fff;
+  font-size: 2rem;
+  background-color: #008792;
+}
+
+.ask-input {
+
+  width: 13%;
+}
+
+paper-progress.process::shadow #progressContainer {
+  background-color: #dec674;
+}
+paper-progress.process::shadow #activeProgress {
+  background-color: #fdb933;
+}
+.process {
+  width: 100%;
+}
