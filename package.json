@@ -1,8 +1,8 @@
 {
-  "name": "Jarvis",
+  "name": "jarvis",
   "description": "super robot Jarvis",
   "version": "0.1.0",
-  "author": "Darmody <eterlf41@gmail.com>",
+  "author": "darmody <eterlf41@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/Darmody/Jarvis"
@@ -26,7 +26,7 @@
     "nodemon": "^1.2.1",
     "supertest": "^0.14.0"
   },
-  "main": "jarvis",
+  "main": "index",
   "scripts": {
     "test": "node --harmony `which gulp` test",
     "dev": "node --harmony `which gulp` dev",
@@ -37,11 +37,13 @@
   "engines": {
     "node": ">=0.11.14"
   },
-  "keywords": [
-    "koa",
-    "framework",
-    "api",
-    "service"
-  ],
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Darmody/Jarvis/issues"
+  },
+  "homepage": "https://github.com/Darmody/Jarvis",
+  "directories": {
+    "test": "test"
+  },
   "license": "MIT"
 }
