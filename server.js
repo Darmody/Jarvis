@@ -1,4 +1,5 @@
 var mount = require('koa-mount');
+var tyrion = require('tyrion');
 
 /* istanbul ignore if  */
 if(process.env.NODE_ENV !== 'test'){
@@ -7,7 +8,7 @@ if(process.env.NODE_ENV !== 'test'){
 
 (function(){
   var app = require('./');
-  //app.use(mount('/Koanect', require('../Koanect')));
+  app.use(mount('/tyrion', tyrion));
 
-  module.exports = app.listen(3000);
+  module.exports = app.listen(3000, '0.0.0.0');
 })();

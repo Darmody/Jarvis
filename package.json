@@ -1,5 +1,5 @@
 {
-  "name": "jarvis",
+  "name": "jarvis-air",
   "description": "super robot Jarvis",
   "version": "0.1.0",
   "author": "darmody <eterlf41@gmail.com>",
@@ -14,6 +14,7 @@
     "koa-logger": "^1.2.2",
     "koa-mount": "^1.3.0",
     "koa-router": "^3.4.0",
+    "tyrion": "^0.1.0",
     "winston": "^0.8.1"
   },
   "devDependencies": {
@@ -37,13 +38,5 @@
   "engines": {
     "node": ">=0.11.14"
   },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/Darmody/Jarvis/issues"
-  },
-  "homepage": "https://github.com/Darmody/Jarvis",
-  "directories": {
-    "test": "test"
-  },
-  "license": "MIT"
+  "keywords": []
 }
